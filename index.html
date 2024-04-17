@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glassmorphism Portfolio</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+</head>
+
+<body>
+    <script src="js\script.js"></script>
+
+
+    <!-- PAGE LOADER -->
+    <div class="page-loader">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <!-- BACKGROUND BUBBLES -->
+    <div class="bg-bubbles">
+        <div class="bubbles-1"></div>
+        <div class="bubbles-2"></div>
+        <div class="bubbles-3"></div>
+        <div class="bubbles-4"></div>
+    </div>
+
+    <!-- OVERLAY -->
+    <div class="overlay">
+    </div>
+
+
+    <!-- MAIN START -->
+    <div class="main">
+
+
+        <!-- ======================================= HEADER ======================================= -->
+        <header class="header">
+            <div class="container">
+                <div class="row flex-end">
+                    <button type="button" class="nav-toggler">
+                        <span></span>
+                    </button>
+                    <nav class="nav">
+                        <div class="nav-inner">
+                            <ul>
+                                <li><a href="#home" class="nav-item link-item">Home</a></li>
+                                <li><a href="#about" class="nav-item link-item">About</a></li>
+                                <li><a href="#contact" class="nav-item link-item ">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+
+
+        <!-- ======================================= HOME SECTION ======================================= -->
+        <section class="home-section align-itens-center active" id="home">
+            <div class="container">
+                <div class="row align-itens-center">
+                    <div class="home-text">
+                        <p>Hello, I'm</p>
+                        <h1>Amanda Sacchi</h1>
+                        <h2>Marketing Cloud Developer</h2>
+                        <a href="#about" class="btn link-item">More about me</a>
+                        <a href="#contact" class="btn link-item">Contact</a>
+                    </div>
+                    <div class="home-img">
+                        <div class="img-box">
+                            <img src="imagens\profile2.png" alt="profile-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================================= ABOUT SECTION ======================================= -->
+        <section class="about-section sec-padding" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>About me</h2>
+                        <label class="language-switcher">
+                            <input type="checkbox" id="lang-toggle">
+                            <span class="lang-slider round"></span>
+                            EN | PT
+                        </label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="about-img">
+                        <div class="img-box">
+                            <img src="imagens\img03.jpeg" alt="about img">
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <p data-lang="pt" style="display:none;">Eu sou uma jovem, que possui uma forte paixão por
+                            tecnologia, curiosa sobre o funcionamento
+                            das coisas, amante de reality shows - com certeza eu participaria de todos os realities da
+                            Discovery - dona de alguns
+                            gatos que acordam 03:00 da manhã para destruir a casa, um pouco nerd, um pouco princesa da
+                            Disney, ciclista aos
+                            finais de semana buscando hábitos mais saudáveis e ser uma pessoa melhor a cada dia.</p>
+
+                        <p data-lang="en">I am a young woman, who has a strong passion for technology, curious about how
+                            it works
+                            of things, lover of reality shows - I would definitely participate in all of Discovery's
+                            reality shows - owner of some
+                            cats that wake up at 3:00 am to destroy the house, a little nerdy, a little Disney princess,
+                            a cyclist at
+                            weekends seeking healthier habits and being a better person every day.</p>
+                        <h3>Skills</h3>
+                        <div class="skills">
+                            <div class="skill-item">Marketing Cloud</div>
+                            <div class="skill-item">Solidity</div>
+                            <div class="skill-item">Node.js</div>
+                            <div class="skill-item">Mongo DB</div>
+                            <div class="skill-item">HTML</div>
+                            <div class="skill-item">CSS</div>
+                            <div class="skill-item">SQL</div>
+                            <div class="skill-item">Java</div>
+                            <div class="skill-item">Github</div>
+                        </div>
+
+                        <div class="about-tabs">
+                            <button type="button" class="tab-item active" data-target="#education">education</button>
+                            <button type="button" class="tab-item" data-target="#experience">experience</button>
+                        </div>
+
+                        <!-- EDUCATION TAB -->
+                        <div class="tab-content active" id="education">
+                            <div class="timeline-item">
+                                <span class="date">2024</span>
+                                <h4 data-lang="pt" style="display:none;"> Blockchain, Smart
+                                    Contracts & Solidity -
+                                    <span>(Chainlink)</span>    
+                                <h4 data-lang="en">Blockchain, Smart Contracts & Solidity - <span>(Chainlink)</span>
+                                </h4>
+                                <p data-lang="en">
+                                    Dive into Blockchain, Smart Contracts & Solidity themes, combined with the tools offered by the Chainlink platform.
+                                </p>
+                            </div>
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">2024</span>
+                                    <h4 data-lang="pt" style="display:none;"> Bootcamp & Hackathon -
+                                        <span>(NearX)</span>    
+                                    <h4 data-lang="en">Bootcamp & Hackathon - <span>(NearX)</span>
+                                    </h4>
+                                    <p data-lang="en">
+                                        <b>▹ Smart Contracts:</b> Familiar with the basics of developing
+                                        and deploying Ethereum smart contracts, with a focus on
+                                        popular standards such as ERC20 for fungible tokens and
+                                        ERC721 for non-fungible tokens (NFTs). <br>
+                                        <b>▹Tokens:</b> Understanding of the foundational aspects of
+                                        creating both fungible and non-fungible tokens, with
+                                        hands-on experience in token deployment. <br>
+                                        <b>▹Solidity:</b> Familiar with Solidity, the core programming
+                                        language for Ethereum blockchain development, and
+                                        capable of crafting simple smart contracts. <br>
+                                        <b>▹Node.js:</b> Able to develop basic user interfaces and
+                                        applications leveraging Node.js, with exposure to Web3.js
+                                        for blockchain interactions. <br>
+                                        <b>▹MongoDB:</b> Introductory knowledge of MongoDB for
+                                        database needs within blockchain emphasizing data integrity and retrieval. <br>
+                                        <b>▹Docker & Remix:</b> Experience with using Remix for smart
+                                        contract testing and an understanding of Docker role in
+                                        creating isolated development environments.
+                                    </p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2023 - 2024</span>
+                                    <h4 data-lang="pt" style="display:none;">Análise e Desenvolvimento de Sistemas -
+                                        <span>(FIAP)</span>
+                                    </h4>
+                                    <p data-lang="pt" style="display:none;">Durante minha formação acadêmica, desenvolvi
+                                        habilidades em criar aplicações web
+                                        e mobile utilizando tecnologias como HTML5, CSS3, JavaScript,
+                                        ReactJS, Java, e Kotlin. Tenho
+                                        experiência com gerenciamento de projetos usando métodos ágeis como Scrum, e na
+                                        interação com bancos de dados SQL. Sou versado em cloud computing e tecnologias emergentes, incluindo
+                                        Blockchain. Além
+                                        disso, cultivei um mindset empreendedor, preparando-me para inovar e solucionar
+                                        desafios tecnológicos no
+                                        desenvolvimento de software.</p>
+                                    <h4 data-lang="en">Analysis and systems development - <span>(FIAP)</span>
+                                    </h4>
+                                    <p data-lang="en"><b>Currently enrolled.</b>During my academic training, I developed
+                                        skills in creating web and mobile
+                                        applications using technologies such as HTML5, CSS3, JavaScript,
+                                        ReactJS, Java, and Kotlin. I
+                                        have experience with project management using agile methods such as Scrum, and
+                                        interacting with SQL databases. I am well versed in cloud computing and emerging technologies,
+                                        including Blockchain. Furthermore, I cultivated an entrepreneurial mindset, preparing
+                                        myself to innovate and solve
+                                        technological challenges in software development.</p>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <span class="date">2019</span>
+                                    <h4>Front End e Back End - <span> Mastertech Academy </span></h4>
+                                    <!-- Português -->
+                                    <p data-lang="pt" style="display:none;"><b>Finalizado.</b> Só tenho gratidão a esse
+                                        curso e às pessoas
+                                        envolvidas, pois foi através dele que eu me descobri uma amante da tecnologia e
+                                        tive certeza de que era isso que eu gostaria de fazer para viver, mesmo que
+                                        fosse como hobby, mas de preferência como meu ganha-pão diário. Depois de
+                                        finalizar o curso eu já sabia que teria que começar do zero uma nova carreira e
+                                        correr atrás de uma nova faculdade na área.</p>
+
+                                    <!-- Inglês -->
+                                    <p data-lang="en"><b>Completed.</b> I'm only grateful for this
+                                        course and the people involved, as it was through it that I discovered my
+                                        passion for technology and was certain that this is what I wanted to do for a
+                                        living, even if just as a hobby, but preferably as my daily bread. After
+                                        completing the course, I knew I would have to start from scratch in a new career
+                                        and pursue another degree in the field.</p>
+
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2014 - 2019</span>
+                                    <h4>Leisure and Tourism - <span> University of Sao Paulo (USP)</span></h4>
+                                    <p data-lang="pt" style="display:none;"><b>Finalizado.</b> Apesar de não seguir na
+                                        área esse curso foi muito importante
+                                        para o meu desenvolvimento pessoal e autoconhecimento.</p>
+                                    <p data-lang="en"><b>Completed.</b> Despite not following the field, this course was
+                                        very important for my development personal and self-knowledge.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- EXPERIENCE TAB -->
+                        <div class="tab-content" id="experience">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">2023 - NOW </span>
+                                    <h4> Marketing Cloud Consultant - <span>MLSE</span></h4>
+                                    <h4 class="date"> Marketing Cloud: </h4>
+                                    <p>
+                                        <b>▹Operational Support:</b> Ensured efficient daily Marketing
+                                        Cloud operations.
+                                        <br><b>▹Journey Crafting:</b> Designed and maintained customer
+                                        journeys, enhancing engagement through Marketing Cloud
+                                        and Salesforce integration.
+                                        <br><b>▹ Web Studio Assets:</b> Created forms, landing pages, and
+                                        more using HTML and AMPScript.
+                                        <br><b>▹ Data & Automation:</b> Executed SQL queries and
+                                        automated marketing campaigns for personalized
+                                        experiences.
+                                        <br><b>▹ Analytics & AI:</b> Utilized Social Studio, reports, and
+                                        Einstein AI for advanced analytics and predictive insights.
+                                        <br><b>▹ Collaboration Tools:</b> Managed projects and teamwork
+                                        effectively using Jira and Slack.
+                                    </p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2021 - 2023 </span>
+                                    <h4> Marketing Cloud Analist - <span>Jfox It</span></h4>
+                                    <h4 class="date"> Marketing Cloud: </h4>
+                                    <p>
+                                        ▹ Support and creation of daily operations and digital
+                                        marketing campaigns;
+                                        <br>▹ Initial setup and implementation of Marketing Cloud
+                                        organizations;
+                                        <br>▹ Integrations, forms and landing pages;
+                                        <br>▹ Integration with MC Connect e API REST;
+                                        <br>▹ Social Studio e Advertising Studio;
+                                        <br>▹ Creating journeys and campaigns using Journey Builder;
+                                        <br>▹ Daily use of SQL to query and automate processes;
+                                        <br>▹ Using HTML and AMPScript for Email Editing and
+                                        Formatting;
+                                        <br>▹ Engagement Studio, Social Studio e Datorama Reports;
+                                        <br>▹ Einstein & Web Recommendation;
+                                        <br><b>Pardot:</b>
+                                        <br>▹ Initial project implementation;
+                                        <br>▹ Engagement Studio;
+                                        <br>▹ HTML5 & CSS to build email templates e Landing Pages;
+                                        <br>▹ Construction and configuration of Dynamic Lists,
+                                        Landing Pages, E-mails and Segmentation;
+                                        <br>▹ Maintenance and creation of flows and journeys.
+                                    </p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2018 - 2019</span>
+                                    <h4>Volunteer - <span>Lab das Minas</span></h4>
+                                    <p>
+                                        Plan accessible and educational workshops for teenagers and
+                                         children.
+                                         Go to schools and events to showcase the work carried out by the Lab.
+                                         Plan trips and excursions.
+                                         Provide assistance and help to the girls.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="pdf/amanda sacchi CV - English.pdf" target="_blank" class="btn">Download CV</a>
+                        <a href="#contact" class="btn link-item">Contact me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ABOUT END -->
+
+        <!-- ======================================= CONTACT SECTION ======================================= -->
+        <section class="contact-section sec-padding" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>Contact me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row">
+                                <div class="input-group">
+                                    <input type="text" placeholder="Name" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" placeholder="Email" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" placeholder="Subject" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <textarea placeholder="Message" class="input-control" required></textarea>
+                                </div>
+                                <div class="submit-btn">
+                                    <button type="submit" class="btn">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <h3>Email</h3>
+                            <p>amandasacchi@hotmail.com</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Phone</h3>
+                            <p>+55 19 99221-9299</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Follow me</h3>
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/amanda-sacchi-%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-69b39353/"
+                                    target="_blank"><i class="uil uil-linkedin-alt"></i></a>
+                                <!-- <a href="https://www.instagram.com/mandasacchi/" target="_blank"><i class="uil uil-instagram"></i></a> -->
+                                <a href="https://github.com/AmandaSacchi" target="_blank"><i
+                                        class="uil uil-github-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CONTACT END -->
+    </div>
+    <!-- MAIN END -->
+
+</body>
+
+</html>
